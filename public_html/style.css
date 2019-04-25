@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2019, 9:00:41 AM
+    Author     : rciarl8967
+*/
+@import url('https://fonts.googleapis.com/css?family=Hind|Poppins');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Hind', sans-serif;
+    color: #222;
+    
+}
+
+.padding{
+    padding: 2rem;
+}
+
+/*--------------------------NAVBAR CSS------------------------------*/
+.navbar {
+    background-color: #577284;
+padding-left: 0;
+margin-left: 0;
+
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+    color: white;
+}
+
+/*------------  PARALLAX-HEADER----------------------------*/
+
+.parallax-header{
+    background-image: url("img/Heart logo600x400.jpg");
+    min-height:600px;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+    
+}#header-title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:700%;
+}
+
+vertical-center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*-----------------------TOGGLE DOWN------------------------ */
+
+.toggle-down{
+    background-color: #e19640;
+}
+/*-----------------------CAROUSEL CSS-------------------------- */
+
+.carousel {
+   width: 400px;
+    margin: 0;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+
+} 
+
+.carousel-caption {
+    postion: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+
+}
+
+/*-----------Drop Down ------------------  */
+.welcome{
+
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+
+/*---------------FIXED BACKGROUND CSS------------------ */
+.parallax{
+    background-image: url("img/pic-of-code.jpg");
+    min-height:150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sections{
+    font-weight:700px;
+
+}
+vertical-center {
+    padding-top: 25%;
+}
+
+/*---------------CONTACT CSS----------------------  */
+.fa-code{
+    color: #e54d26;
+}
+.fa-bold {
+    color: #563d7c;
+}
+.fa-css3{
+    color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-github-square{
+    color:#343333 ;
+}
+.fa-google-plus-g{
+    color:#dd4b39 ;
+}
+.fa-linkedin{
+    color:#2964ac ;
+}
+.fa-facebook:hover, .fa-github-square:hover, .fa-google-plus-g:hover,
+.fa-linkedin:hover{
+    color:#d5d5d5;
+}
+
+/*---------------- FOOTER CSS------------ */
+footer{
+    background-color:#577284;
+    color: white;
+    padding-top: 1rem;
+}
+
+/*----------Media Queries ----------- */
+@media (max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .carousel-caption {
+        top:45%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+
+    }
+    .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .parallax{
+        min-height: 125px;
+    }
+
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top:40%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+
+    }
+    .social a{
+        font-size: 2.0em;
+        padding: .7rem;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+    .parallax{
+        min-height: 75px;
+    }
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

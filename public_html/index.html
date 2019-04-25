@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts.js"></script>
+        <title>Portfolio Site</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="0">
+
+
+        <!-- Navigation -->
+
+       <div class="navbar navbar-expand-md  fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/RachelLogo-3.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+             <!--- Portfolio Fixed background -->
+        <figure>
+            <div class="col-12 parallax-header text-center">
+               <h1 id="header-title">Web Developer</h1>
+               
+            </div>
+        </figure>
+       
+    
+        
+        <!--- pop down hidden Section -->
+        <button class="col-12 toggle-down" data-toggle="collapse" data-target="#down-button"><i class="fas fa-chevron-down"> </i>  Toggle Down  <i class="fas fa-chevron-down"></i></button>
+        <div id="down-button" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">This Website was Built Using:</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--- Three Column pop down hidden Section -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML5</h3>
+                    <P>Built with the latest version of HTML, HTML5.</p>
+                </div> 
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bold"></i>
+                    <h3>BOOTSTRAP</h3>
+                    <p>Build with the latest version of Bootstrap, Bootstrap 4.</p>
+                </div> 
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Build with the latest version of CSS, CSS3.</p>
+                </div> 
+
+            </div>
+        </div>
+            <hr class="my-4">
+        </div>
+        
+          <!--- Portfolio Fixed background  https://www.w3schools.com/howto/howto_css_center-vertical.asp
+          https://www.w3schools.com/bootstrap4/bootstrap_flex.asp -->
+          <figure class="container-fluid " id="portfolio">
+              <div class="row welcome text-center">
+                 <div class="col-12 parallax">
+                     <h1 class="display-4 sections"><strong>Portfolio</strong></h1>
+                </div>
+              </div>
+         </figure>
+
+        <!--- Portfolio Cards -->
+
+        <div class="card-deck">
+            <div class="row padding" >
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card">
+                        <img class="card-img-top " src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title one</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card">
+                        <img class="card-img-top " src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title two</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title three</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title four</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="row padding">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title five</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title six</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title seven</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Title eight</h4>
+                            <p class="card-text">This is text</p>
+                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- About Fixed background -->
+        <figure>
+            <div class="col-12 parallax text-center">
+                <div id="fixed">
+                    <h1 id="about" class="display-4 sections"><strong>About</strong></h1>
+                </div>
+            </div>
+        </figure>
+        <!--- About Two Column Section -->
+        <div class="container-fluid padding">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Rachel Ciarlante</h2> 
+                </div>
+            </div>
+            <div class="row padding">
+
+                <div class="col-lg-6">
+                    <img src="img/selfPhoto.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+
+                    <p>Rachel has been working in many areas of Business Administration
+                        for over 20 years. She is currently a student at Sullivan 
+                        University and studying in the field of Dynamic Web Design. 
+                        Her list of expertise include HTML/CSS3, JavaScript, jQuery, 
+                        Netbeans,PHP, WordPress, MySQL, Adobe Dreamweaver cc, Adobe Animate cc,
+                        Visual Studio VB, Adobe Photoshop cc, Animate cc, Adobe After Effects cc, 
+                        Adobe Illustrator cc, Java, Microsoft Office, SharePoint Services, 
+                        Billing, Accounts Payable, Purchasing, Scheduling, 
+                        Supply Ordering, Note Taking and Transcription, Customer Service, 
+                        Report Preparation, Oral and Written Communication, Expense Reports, 
+                        Conference and Travel Arrangements, Front and Backend Office operations, 
+                        Professional Presentations, Event planning and Problem solving.
+                    </p>
+                    <p>Rachel is very organized, and detail-oriented. She excels at multi-tasking. 
+                        She is an efficient, proactive, quick learner. Rachel enjoys working 
+                        in a fast-paced, upbeat, positive environment in which she 
+                        gets to use her skills to support others and accomplish challenging goals.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+      
+        <!--- Resume Fixed background -->
+        <figure>
+            <div class="col-12 parallax text-center">
+                <div id="fixed">
+                    <h1 id="resume" class="display-4"><strong>Resume</strong></h1>
+                </div>
+            </div>
+        </figure>
+        <!--- Resume -->
+
+        <!---Contact Fixed background -->
+        <figure>
+            <div class="col-12 parallax text-center">
+                <div id="fixed">
+                    <h1 id="contact" class="display-4"><strong>Contact</strong></h1>
+                </div>
+            </div>
+        </figure>
+
+        <!--- Contact -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Contact</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github-square"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/RachelLogo-2.png">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>&copy; rachelciarlante.com</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </body>
+</html>
