@@ -74,28 +74,6 @@ vertical-center {
 }
 /*-----------------------CAROUSEL CSS-------------------------- */
 
-.carousel {
-   width: 400px;
-    margin: 0;
-}
-.carousel-inner img{
-    width: 100%;
-    height: 100%;
-
-} 
-
-.carousel-caption {
-    postion: absolute;
-    top: 50%;
-    margin: 0;
-    transform: translateY(-50%);
-
-}
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 500;
-
-}
 
 /*-----------Drop Down ------------------  */
 .welcome{
@@ -129,6 +107,52 @@ vertical-center {
 vertical-center {
     padding-top: 25%;
 }
+
+
+/*--------------CARD SLIDER-----------------------  */
+/* equal card height */
+.row-equal  div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+.carousel-inner{
+    margin-bottom: 3em;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+
+.card-header{color:dodgerblue}
+
+
+ 
+
+
 
 /*---------------CONTACT CSS----------------------  */
 .fa-code{

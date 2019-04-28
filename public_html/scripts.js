@@ -3,21 +3,34 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$(function(){
+$(function () {
 
-   $.fn.scrollView = function () {
-       alert();
-    return this.each(function () {
-      $('html, body').animate({
-        scrollTop: $(this).offset().top
-      }, 1000);
+    $.fn.scrollView = function () {
+        alert();
+        return this.each(function () {
+            $('html, body').animate({
+                scrollTop: $(this).offset().top
+            }, 1000);
+        });
+    };
+
+
+    $('#portfolio').scroll(function (event) {
+        event.preventDefault();
+        $('.navbar').scrollView();
     });
-  };
+
+    "use strict";
+    $('.next').click(function () {
+        $('.carousel').carousel('next');
+        return false;
+    });
+    $('.prev').click(function () {
+        $('.carousel').carousel('prev');
+        return false;
+    });
 
 
-$('#portfolio').scroll(function (event) {
-  event.preventDefault(); 
-  $('.navbar').scrollView();
-});
-});
+})(jQuery);
+
 

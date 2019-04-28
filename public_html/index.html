@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
+
         <script src="scripts.js"></script>
         <title>Portfolio Site</title>
     </head>
@@ -17,7 +17,7 @@
 
         <!-- Navigation -->
 
-       <div class="navbar navbar-expand-md  fixed-top">
+        <div class="navbar navbar-expand-md  fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/RachelLogo-3.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -44,155 +44,176 @@
                 </div>
             </div>
         </div>
-        
-             <!--- Portfolio Fixed background -->
+
+        <!--- Portfolio Fixed background -->
         <figure>
             <div class="col-12 parallax-header text-center">
-               <h1 id="header-title">Web Developer</h1>
-               
+                <h1 id="header-title">Web Developer</h1>
+
             </div>
         </figure>
-       
-    
-        
+
+
+
         <!--- pop down hidden Section -->
         <button class="col-12 toggle-down" data-toggle="collapse" data-target="#down-button"><i class="fas fa-chevron-down"> </i>  Toggle Down  <i class="fas fa-chevron-down"></i></button>
         <div id="down-button" class="collapse">
-        <div class="container-fluid padding">
-            <div class="row welcome text-center">
-                <div class="col-12">
-                    <h1 class="display-4">This Website was Built Using:</h1>
+            <div class="container-fluid padding">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">This Website was Built Using:</h1>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!--- Three Column pop down hidden Section -->
-        <div class="container-fluid padding">
-            <div class="row text-center padding">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <i class="fas fa-code"></i>
-                    <h3>HTML5</h3>
-                    <P>Built with the latest version of HTML, HTML5.</p>
-                </div> 
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <i class="fas fa-bold"></i>
-                    <h3>BOOTSTRAP</h3>
-                    <p>Build with the latest version of Bootstrap, Bootstrap 4.</p>
-                </div> 
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <i class="fab fa-css3"></i>
-                    <h3>CSS3</h3>
-                    <p>Build with the latest version of CSS, CSS3.</p>
-                </div> 
+            <!--- Three Column pop down hidden Section -->
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fas fa-code"></i>
+                        <h3>HTML5</h3>
+                        <P>Built with the latest version of HTML, HTML5.</p>
+                    </div> 
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fas fa-bold"></i>
+                        <h3>BOOTSTRAP</h3>
+                        <p>Build with the latest version of Bootstrap, Bootstrap 4.</p>
+                    </div> 
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS3</h3>
+                        <p>Build with the latest version of CSS, CSS3.</p>
+                    </div> 
 
+                </div>
             </div>
-        </div>
             <hr class="my-4">
         </div>
-        
-          <!--- Portfolio Fixed background  https://www.w3schools.com/howto/howto_css_center-vertical.asp
-          https://www.w3schools.com/bootstrap4/bootstrap_flex.asp -->
-          <figure class="container-fluid " id="portfolio">
-              <div class="row welcome text-center">
-                 <div class="col-12 parallax">
-                     <h1 class="display-4 sections"><strong>Portfolio</strong></h1>
+
+        <!--- Portfolio Fixed background  https://www.w3schools.com/howto/howto_css_center-vertical.asp
+        https://www.w3schools.com/bootstrap4/bootstrap_flex.asp -->
+
+        <figure class="container-fluid " id="portfolio">
+            <div class="row welcome text-center">
+                <div class="col-12 parallax">
+                    <h1 class="display-4 sections"><strong>Portfolio</strong></h1>
                 </div>
-              </div>
-         </figure>
+            </div>
+        </figure>
 
         <!--- Portfolio Cards -->
 
-        <div class="card-deck">
-            <div class="row padding" >
-                <div class="col-md-6 col-lg-3" >
-                    <div class="card">
-                        <img class="card-img-top " src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title one</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
-                        </div>
+        <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-right mb-4 " style="background-color: lightblue">
+                        <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                        <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3" >
-                    <div class="card">
-                        <img class="card-img-top " src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title two</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+            </div>
+            <div  class="container p-t-0  m-t-2 carousel-inner">
+                <div class="row row-equal carousel-item active m-t-0">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/jackjack_205Wx281H.jpg" alt="jack jack">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>Jack Jack Attack</h3></div>
+                                <div class="card-text"><p class="card-text"><strong>Kinetic Typography made with Adobe After Effects</strong></p></div>
+                                <div class="card-text">This was a class project. We had to do a two minute video using Kinetic Typography.</div>
+                                <a href="https://www.youtube.com/watch?v=bkIkh5Bfdwo" target="_blank" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3" >
-                    <div class="card">
-                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title three</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/starWars171Wx281H.jpg" alt="Star Wars">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>Star Wars</h3></div>
+                                <div class="card-text"><p class="card-text"><strong>2d Pictures to 3D video</strong></p></div>
+                                <div class="card-text">For this class project, I took 2D images from a popular movie and cut them 
+                                    out in layers in Photo Shop then animated them in 3D space using After Effects.</div>
+                                <a href="https://www.youtube.com/watch?v=EcZIRHFAq3g&t=2s" target="_blank" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/3d75927b210409af8582828c4049fcd0.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-md-6 col-lg-3" >
-                    <div class="card">
-                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title four</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
+                <div class="row row-equal carousel-item m-t-0">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/45590771a1ee18248a49bd399ef99bf1--posts.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/917d7b69ebd58d0ef0e561cdcb016303--red-rose-bouquet-red-rose-flower.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/29223655865_4b8b01989e.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/29223655865_4b8b01989e.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250">
+                                <img class="img-fluid" src="img/29223655865_4b8b01989e.jpg" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>flower1</h3></div>
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card-deck">
-            <div class="row padding">
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                    <div class="card">
-                        <img class="card-img-top" src="img/jackjack_205Wx281H.jpg" style="max-height: 20em;">
-                        <div class="card-body">
-                            <h4 class="card-title">Jack Jack Attack</h4>
-                            <p class="card-text"><strong>Kinetic Typography made with Adobe After Effects</strong></p>
-                            <p class="card-text">This was a class project. We had to do a two minute video using Kinetic Typography. </p>
-                            <a href="https://www.youtube.com/watch?v=bkIkh5Bfdwo" target="_blank" class="btn btn-outline-secondary">See Portfolio Piece</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                    <div class="card">
-                        <img class="card-img-top" src="img/starWars171Wx281H.jpg" style="max-height: 20em;">
-                        <div class="card-body">
-                            <h4 class="card-title">Star Wars</h4>
-                            <p class="card-text"><strong>2D Pictures to 3D Video</strong></p>
-                            <p class="card-text">For this class project, I took 2D images from a popular movie and cut them 
-                            out in layers in Photo Shop then animated them in 3D space using After Effects.</p>
-                            <a href="https://www.youtube.com/watch?v=EcZIRHFAq3g&t=2s" target="_blank" class="btn btn-outline-secondary">See Portfolio Piece</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title seven</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/Heart logo-grouped-small.png">
-                        <div class="card-body">
-                            <h4 class="card-title">Title eight</h4>
-                            <p class="card-text">This is text</p>
-                            <a href="#" class="btn btn-outline-secondary">See Portfolio Piece</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
+
 
         <!--- About Fixed background -->
         <figure>
@@ -240,7 +261,7 @@
             </div>
         </div>
 
-      
+
         <!--- Resume Fixed background -->
         <figure>
             <div class="col-12 parallax text-center">
@@ -296,5 +317,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
     </body>
 </html>
