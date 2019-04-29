@@ -8,6 +8,7 @@ and open the template in the editor.
     Author     : rciarl8967
 */
 @import url('https://fonts.googleapis.com/css?family=Hind|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
 
 html, body {
     height: 100%;
@@ -50,6 +51,7 @@ margin-left: 0;
     /* object-fit: cover; */
     
 }#header-title {
+    font-family: 'Gugi', cursive;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -92,6 +94,7 @@ vertical-center {
 
 /*---------------FIXED BACKGROUND CSS------------------ */
 .parallax{
+    font-family: 'Gugi', cursive;
     background-image: url("img/pic-of-code.jpg");
     min-height:150px;
     background-attachment: fixed;
