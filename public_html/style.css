@@ -24,11 +24,17 @@ html, body {
 
 /*--------------------------NAVBAR CSS------------------------------*/
 .navbar {
-    background-color: #577284;
-padding-left: 0;
-margin-left: 0;
-
+   
+    background-color: #95c4e2;
+     min-height:20px !important
 }
+.navbar-nav > li > a {
+    padding-top:0px !important; 
+    padding-bottom:0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
 .navbar-nav li {
     padding-right: 20px;
 }
@@ -41,6 +47,7 @@ margin-left: 0;
 
 .parallax-header{
     background-image: url("img/Heart logo600x400.jpg");
+    clear: both;
     min-height:600px;
     width: 100%;
     height: auto;
@@ -121,6 +128,7 @@ vertical-center {
 
 .row-equal .card {
    width: 100%;
+   
 }
 .carousel-inner{
     margin-bottom: 3em;

@@ -34,13 +34,14 @@ $(function () {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "0px 5px";
-    document.getElementById("logo").style.fontSize = "15px";
+  if (document.body.scrollTop > 116 || document.documentElement.scrollTop > 116) {
+    document.getElementById("navbar").style.padding = "0px 0px";
+    document.getElementById("logo").style.height = "53px";
+    document.getElementById("logo").style.width = "306px";
   } else {
-    document.getElementById("navbar").style.padding = "40px 10px";
-    document.getElementById("logo").style.fontSize = "20px";
-  }
+    document.getElementById("navbar").style.padding = "5px 5px";
+    document.getElementById("logo").style.height = "106px";
+    document.getElementById("logo").style.width = "609px";}
 }
 
 
